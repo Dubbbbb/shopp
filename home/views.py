@@ -9,3 +9,11 @@ def shop_page(request):
 def single_product(request):
     return render(request, "single_product.html", {})
 
+def checkout(request):
+    return render(request, "checkout.html", {})
+
+def cart(request):
+    return render(request, "cart.html", {})
+
+
+

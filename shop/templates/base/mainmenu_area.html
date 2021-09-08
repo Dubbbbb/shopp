@@ -12,10 +12,10 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="./">Home</a></li>
-                        <li><a href="shop_page">Shop page</a></li>
-                        <li><a href="single_product">Single product</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="{% url 'shop_page' %}">Shop page</a></li>
+                        <li><a href="{% url 'single_product' %}">Single product</a></li>
+                        <li><a href="{% url 'cart' %}">Cart</a></li>
+                        <li><a href="{% url 'checkout' %}">Checkout</a></li>
                         <li><a href="#">Category</a></li>
                         <li><a href="#">Others</a></li>
                         <li><a href="#">Contact</a></li>
